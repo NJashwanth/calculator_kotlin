@@ -23,18 +23,13 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         buttonSub=findViewById(R.id.btn_sub)
         buttonMul=findViewById(R.id.btn_mul)
         buttonDiv=findViewById(R.id.btn_div)
-
         etA=findViewById(R.id.et_a)
         etB=findViewById(R.id.et_b)
         resultTv=findViewById(R.id.result_tv)
-
-
         buttonAdd.setOnClickListener(this)
         buttonSub.setOnClickListener(this)
         buttonMul.setOnClickListener(this)
         buttonDiv.setOnClickListener(this)
-
-
     }
 
     override fun onClick(v: View?) {

@@ -6,10 +6,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
-
-
-
-
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -64,6 +60,18 @@
         android:id="@+id/result_tv"
         android:gravity="center"
         />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Next UI"
+        android:drawableRight="@android:drawable/ic_media_next"
+        android:id="@+id/btn_next"
+        />
+
+
+
 
 
 
